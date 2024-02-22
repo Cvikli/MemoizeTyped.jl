@@ -23,7 +23,7 @@ end
 
 Some more:
 ```
-@memoize_typed false Float32 fn(a,b,c) # For disabling cache temporarily
+@memoize_typed false Float32 fn(a,b,c) # For disabling cacheóing temporarily
 @clean_cached fn(a,b,c)                # For cleaning cache
 ```
 
