@@ -25,7 +25,9 @@ end
 - Support to disable memoization.
 
 ## TODO
-- Would be great if we would have the "return type deduced" so we don't have to prespecify. (I saw many different solution, one is [#1](https://stackoverflow.com/questions/58328476/is-it-possible-to-get-the-return-type-of-a-julia-function-in-an-unevaluated-cont))
+- Would be great if we would have the "return type deduced" so we don't have to prespecify.
+    - I saw many different solution: [#1](https://discourse.julialang.org/t/type-stable-generic-memoisation/96237) [#2](https://stackoverflow.com/questions/58328476/is-it-possible-to-get-the-return-type-of-a-julia-function-in-an-unevaluated-cont) [#3](https://discourse.julialang.org/t/obtaining-a-functions-output-type/11313) [#4](https://discourse.julialang.org/t/why-does-core-compiler-return-type-expect-function-instance-instead-of-function-type/42521) [#5](https://discourse.julialang.org/t/using-core-inference-return-type/2945)
+
 - Setting the cache to Main module score or Pkg scope.
 - Memoization.jl or Memoize.jl should be checked and see if these type safety style could be applied as it is literally the same thing with Any,Any types...
 
