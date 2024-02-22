@@ -22,7 +22,7 @@ end
 ## Features
 - Cache the function calls, those are repetative. 
 - Support to disable memoization.
-- Support to disable memoization.
+- Support to cleaning cache.
 
 ## TODO
 - Would be great if we would have the "return type deduced" so we don't have to prespecify.
