@@ -6,17 +6,25 @@ We want the simples UX to memoize a call.
 
 ## Why:
 ```julia
-@memoize_tyepd fn(a,b,c)
+a,b,c = 3,4,6f0
+fn(a,b,c) = @show a+b+c
+@memoize_typed Float32 fn(a,b,c)
 ```
 instead of
 ```julia
-CUSTOMPKG.cache = Dict{typeof(a,b,c),typeof(fn(a,b,c)}()
+CUSTOMPKG.cache = Dict{typeof(a,b,c),Float32}()
 
 if(a,b,c) in keys(cache) 
   cache[a,b,c]
 else
   cache[a,b,c] = fn(a,b,c)
 end
+```
+
+Some more:
+```
+@memoize_typed false Float32 fn(a,b,c) # For disabling cache temporarily
+@clean_cached fn(a,b,c)                # For cleaning cache
 ```
 
 ## Features
