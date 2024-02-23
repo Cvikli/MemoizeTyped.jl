@@ -4,6 +4,9 @@ It is a inspiartion of [Memoize.jl](https://github.com/JuliaCollections/Memoize.
 
 We want the simples UX to memoize a call. 
 
+Also this package can be useful: [UltimateStruct.jl](https://github.com/Cvikli/UniversalStruct.jl)
+
+
 ## Why:
 ```julia
 a,b,c = 3,4,6f0
@@ -44,4 +47,5 @@ Some more:
 - postprocessing data.
 
 # Note
-The whole pkg is ONE single file([MemoizeTyped.jl](https://github.com/Cvikli/MemoizeTyped.jl/blob/main/src/MemoizeTyped.jl)) with a single macro. 
+The whole pkg is ONE single file([MemoizeTyped.jl](https://github.com/Cvikli/MemoizeTyped.jl/blob/main/src/MemoizeTyped.jl)) with a single macro.
+
