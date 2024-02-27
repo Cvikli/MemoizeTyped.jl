@@ -1,5 +1,7 @@
 # Type safe memoize of function calls
 
+[ EXPERIMENTAL ] Please be careful, this is in too early stage!
+
 It is a inspiartion of [Memoize.jl](https://github.com/JuliaCollections/Memoize.jl) and [Memoization.jl](https://github.com/marius311/Memoization.jl)
 
 We want the simples UX to memoize a call. 
