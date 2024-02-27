@@ -2,3 +2,6 @@ name = "MemoizeTyped"
 uuid = "a636933a-ab55-46ec-b805-b789c6b8b1f1"
 authors = ["Marcell <havlikmarcell@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"

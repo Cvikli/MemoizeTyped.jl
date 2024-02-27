@@ -1,6 +1,24 @@
 
 
 
+using MemoizeTyped
+
+fnnn(a,b,c) = @show b
+x,a,b=ones(3,1),7,"fe"
+
+@show typeof((x,a,b))
+@memoize_typed typeof(a) fnnn(x,a,b)
+
+#%%
+fnnn_cached
+
+
+
+#%%
+
+
+
+
 r=(;fe=3,re=1)
 q=randn(4,5)
 using Boilerplate
