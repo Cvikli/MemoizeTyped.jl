@@ -21,7 +21,7 @@ fnnn_cached
 
 r=(;fe=3,re=1)
 q=randn(4,5)
-using Boilerplate
+using BoilerplateCvikli
 @typeof (4f0,q,r)
 fn(a,q,r) = (println("ok");return a+6f0)
 fnn(a,q,r) = (println("ok");return a+6f0)
@@ -76,7 +76,7 @@ end
 
 r=(;fe=3,re=1)
 q=randn(4,5)
-using Boilerplate
+using BoilerplateCvikli
 @typeof (4f0,q,r)
 fn(a,q,r) = (println("ok");return a+6f0)
 tt = (typeof((4f0,q,r)))
